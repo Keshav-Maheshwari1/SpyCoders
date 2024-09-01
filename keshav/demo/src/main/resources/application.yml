@@ -1,0 +1,36 @@
+server:
+  port: 9090
+
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://bolidor340:keshavmaheshwari@cluster0.kjc0re5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+#      database: Review
+#      connection-pool:
+#        max-size: 100
+#        min-size: 5
+#        max-connection-lifetime: 30m
+#        max-connection-idle-time: 30000
+#        host: hostIpOnWhichMongoIsRunning
+#        port: 27017
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot
+    username: root
+    password: mysql
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  main:
+    allow:
+      circular-reference: true
+
+# razorpay integration
+razorpay:
+  key-id: rzp_test_G5oQ7IeIHoGxCO
+  key-secret: i32O70CZhuOQYiTXecY0QD9j
+  currency: INR
+  company-name: MyCompany

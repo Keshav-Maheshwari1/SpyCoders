@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72b2994a-c5f1-4c37-8c66-eb92967170ad" name="Changes" comment="" />
+    <list default="true" id="8f1665bf-a074-4f7d-8cc3-f65188621187" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/myfolder/practice/PracticeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/test/java/com/myfolder/practice/PracticeApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="2lS4EswoTrQGxITHFOtTxLBbsZO" />
+  <component name="ProjectId" id="2lStV8Skni89IaTX2820eAL4EIo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,6 +33,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -32,11 +48,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="72b2994a-c5f1-4c37-8c66-eb92967170ad" name="Changes" comment="" />
-      <created>1725160037978</created>
+      <changelist id="8f1665bf-a074-4f7d-8cc3-f65188621187" name="Changes" comment="" />
+      <created>1725185327101</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725160037978</updated>
+      <updated>1725185327101</updated>
     </task>
     <servers />
   </component>
