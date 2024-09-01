@@ -4,15 +4,16 @@ import com.razorpay.Order;
 import com.razorpay.RazorpayClient;
 import com.razorpay.RazorpayException;
 import org.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
 public class RazorPayController {
+    private final Logger logger = LoggerFactory.getLogger(RazorPayController.class);
     @Value("${razorpay.key-id}")
     private String razorpayKeyId;
 
@@ -29,8 +30,13 @@ public class RazorPayController {
         orderRequest.put("receipt", "order_receipt_11");
 
         Order order = razorpayClient.orders.create(orderRequest);
-        String orderId = order.get("id");
 
-        return orderId + " amount: " + amount;
+        return order.get("id");
+    }
+    @PostMapping("/web-callback")
+    public ResponseEntity<Void> paymentCallbackwebhooks(@RequestBody(required = false) String payload){
+        logger.info("Hook Called");
+        logger.info(payload);
+        return ResponseEntity.ok(null);
     }
 }
